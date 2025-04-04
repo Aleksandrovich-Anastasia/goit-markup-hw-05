@@ -430,8 +430,14 @@
         </div>
         <div class="footer-subscribe">
           <p class="text footer-p">Subscribe</p>
-          <div class="input-btn">
-            <input type="email" class="footer-email" placeholder="E-mail" />
+          <form class="form-subscribe">
+            <label for="footer-email">
+              <input
+                type="email"
+                class="footer-email"
+                name="footer-email"
+                placeholder="E-mail"
+            /></label>
             <div class="footer-btn-icon">
               <button class="page-btn footer-btn" type="submit">
                 Subscribe
@@ -440,7 +446,7 @@
                 <use href="./images/icons.svg#icon-fly"></use>
               </svg>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -497,13 +503,15 @@
               </svg>
             </div>
           </div>
-          <label class="form-label" for="user-comment">Comment</label>
-          <textarea
-            class="form-input form-area"
-            name="user-comment"
-            id="user-comment"
-            placeholder="Text input"
-          ></textarea>
+          <div class="form-comment">
+            <label class="form-label" for="user-comment">Comment</label>
+            <textarea
+              class="form-input form-area"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
           <div class="form-checkbox">
             <input
               type="checkbox"
