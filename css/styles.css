@@ -373,7 +373,6 @@ img {
 }
 .footer-soc {
   width: 208px;
-  margin-right: 80px;
 }
 .footer-p {
   font-weight: 500;
@@ -388,8 +387,9 @@ img {
 .footer-soc .soc-icon-linc:focus {
   background-color: #31d0aa;
 }
-.fotter-subscribe {
+.footer-subscribe {
   width: 453px;
+  margin-left: auto;
 }
 .input-btn {
   display: flex;
@@ -502,7 +502,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
 }
 
@@ -562,7 +562,12 @@ img {
 .form-checkbox .form-label {
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 .form-checkbox {
   margin-bottom: 24px;
+}
+.form-btn {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
