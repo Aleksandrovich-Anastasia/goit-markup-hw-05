@@ -431,21 +431,19 @@
         <div class="footer-subscribe">
           <p class="text footer-p">Subscribe</p>
           <form class="form-subscribe">
-            <label for="footer-email">
+            <label class="footer-label" for="footer-email">
               <input
                 type="email"
-                class="footer-email"
+                class="footer-input"
+                id="footer-label"
                 name="footer-email"
                 placeholder="E-mail"
             /></label>
-            <div class="footer-btn-icon">
-              <button class="page-btn footer-btn" type="submit">
-                Subscribe
-              </button>
-              <svg class="btn-icon" width="24" height="24">
+            <button class="page-btn footer-btn" type="submit">
+              Subscribe<svg class="btn-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-fly"></use>
               </svg>
-            </div>
+            </button>
           </form>
         </div>
       </div>
@@ -516,11 +514,11 @@
             <input
               type="checkbox"
               class="checkbox-input visually-hidden"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
             />
-            <label for="policy" class="form-label"
+            <label for="user-privacy" class="form-label"
               ><span class="checkbox-span">
                 <svg class="" width="10" height="8">
                   <use href="./images/icons.svg#icon-done"></use>
